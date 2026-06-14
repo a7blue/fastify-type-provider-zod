@@ -12,6 +12,10 @@ export {
   type ZodTypeProvider,
 } from './core'
 
+export function compareSchemas(a: any, b: any) {
+  return a == b;
+}
+
 export {
   hasZodFastifySchemaValidationErrors,
   InvalidSchemaError,
